@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.container_full {
+    width: 100%;
+    margin: 0 auto;
+}
+.header {
+    border-bottom: 1px solid black;
+}
+.header__logo {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+.header img {
+    height: 64px;
+}
+.main {
+    background: url(https://png.pngtree.com/background/20210711/original/pngtree-exploding-3d-particles-background-png-picture-image_1167899.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10em;
+    text-align: center;
+}
+.footer {
+    margin-top: 10em;
+}
+.footer__item {
+    display: flex;
+    gap: 2em;
+    
+}
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
